@@ -1,5 +1,37 @@
 .App {
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.Select{
+  height: 250px;
+  overflow-y: auto;
+}
+
+.DivKcal{
+  background-color: #F5F5F5;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.DivTitle{
+  font-size: 32px;
+}
+
+.DivAlimentos{
+  flex: 1;
+}
+
+.divLine{
+  cursor: pointer;
+}
+
+.lineActive{
+  background-color: #F5F5F5;
 }
 
 .App-logo {
